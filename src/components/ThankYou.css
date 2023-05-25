@@ -1,0 +1,30 @@
+.thank-you{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  max-width: 23rem;
+  padding: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(to top,hsla(207, 30%, 12%) ,hsla(215, 25%, 15%) 100%);
+  text-align: center;
+}
+.thank-you_selection{
+  width: 12rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 30px;
+  background-color: var(--neutral-dark-blue);
+  color: var(--primary-orange);
+}
+.thank-you_title{
+  font-size: 1.5rem;
+  color: var(--neutral-white);
+}
+.thank-you_text{
+  max-width: 25rem;
+  font-size: 0.825rem;
+  line-height: 1.5;
+}
